@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery - USISKO Global Resources</title>
+    <meta
+      name="description"
+      content="Explore our facilities, operations, and team at USISKO Global Resources through our comprehensive photo gallery."
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/ChatGPT Image Aug 14, 2025, 07_11_51 AM.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-brand">
+          <div class="logo">
+            <span>U</span>
+          </div>
+          <span class="brand-text">USISKO</span>
+        </div>
+
+        <div class="nav-menu" id="nav-menu">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="services.html" class="nav-link">Services</a>
+          <a href="locations.html" class="nav-link">Locations</a>
+          <a href="gallery.html" class="nav-link active">Gallery</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <div class="page-header-content">
+          <h1 class="page-title">Our Gallery</h1>
+          <p class="page-subtitle">
+            Explore our facilities, operations, and team in action
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Filters -->
+    <section class="gallery-filters">
+      <div class="container">
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="facilities">
+            Facilities
+          </button>
+          <button class="filter-btn" data-filter="stations">
+            Fuel Stations
+          </button>
+          <button class="filter-btn" data-filter="transport">Transport</button>
+          <button class="filter-btn" data-filter="team">Team</button>
+          <button class="filter-btn" data-filter="clients">
+            Client Stations
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-grid">
+      <div class="container">
+        <div class="gallery-container">
+          <!-- Facilities -->
+
+          <div class="gallery-item" data-category="facilities">
+            <div class="gallery-image">
+              <img
+                src="./images/hero pic .jpg"
+                alt="USISKO warehouse with stacked products"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h3>Fuel Station Facilities</h3>
+                  <p>Our well-organized fuel station</p>
+                  <button class="gallery-btn" onclick="openLightbox(this)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="stations">
+            <div class="gallery-image">
+              <img
+                src="./images/Screenshot_13-8-2025_194247_.jpeg.crdownload"
+                alt="Oleh Station"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h3>Oleh Station</h3>
+                  <p>Full-service fuel station</p>
+                  <button class="gallery-btn" onclick="openLightbox(this)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="stations">
+            <div class="gallery-image">
+              <img
+                src="./images/Screenshot_13-8-2025_193651_.jpeg.crdownload"
+                alt="Ogbovwan Station"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h3>Ogbovwan Station</h3>
+                  <p>Modern fuel station facility</p>
+                  <button class="gallery-btn" onclick="openLightbox(this)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="facilities">
+            <div class="gallery-image">
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-13%20at%2018.00.16_c822999e.jpg-SXw9ocfb3bKU81tipGDDikhOrDoxUO.jpeg"
+                alt="USISKO warehouse with stacked products"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h3>Storage Warehouse</h3>
+                  <p>Our well-organized storage facility</p>
+                  <button class="gallery-btn" onclick="openLightbox(this)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="transport">
+            <div class="gallery-image">
+              <img
+                src="./images/Screenshot_13-8-2025_193828_.jpeg.crdownload"
+                alt="Transport Fleet"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h3>Transport Fleet</h3>
+                  <p>Our reliable tanker vehicles</p>
+                  <button class="gallery-btn" onclick="openLightbox(this)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="stations">
+            <div class="gallery-image">
+              <img
+                src="./images/Screenshot_13-8-2025_193951_.jpeg.crdownload"
+                alt="Ozoro Station"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h3>Ozoro Station & Gas Plant</h3>
+                  <p>Fuel station with LPG facility</p>
+                  <button class="gallery-btn" onclick="openLightbox(this)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="facilities">
+            <div class="gallery-image">
+              <img
+                src="./images/Screenshot_13-8-2025_193441_.jpeg.crdownload"
+                alt="Storage Tanks"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h3>Storage Tanks</h3>
+                  <p>1.8M liters capacity storage</p>
+                  <button class="gallery-btn" onclick="openLightbox(this)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="facilities">
+            <div class="gallery-image">
+              <img
+                src="./images/Screenshot_13-8-2025_194121_.jpeg.crdownload"
+                alt="Gas Plant"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h3>LPG Gas Plant</h3>
+                  <p>Modern gas processing facility</p>
+                  <button class="gallery-btn" onclick="openLightbox(this)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="facilities">
+            <div class="gallery-image">
+              <img
+                src="./images/Screenshot_13-8-2025_194356_.jpeg.crdownload"
+                alt="Discharge Pumps"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h3>Discharge Pumps</h3>
+                  <p>High-capacity pumping equipment</p>
+                  <button class="gallery-btn" onclick="openLightbox(this)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="transport">
+            <div class="gallery-image">
+              <img
+                src="./images/Screenshot_13-8-2025_194443_.jpeg.crdownload"
+                alt="Delivery Vehicle"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h3>Delivery Vehicles</h3>
+                  <p>Pickup and delivery fleet</p>
+                  <button class="gallery-btn" onclick="openLightbox(this)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="clients">
+            <div class="gallery-image">
+              <img
+                src="./images/Screenshot_13-8-2025_194556_.jpeg.crdownload"
+                alt="G-PALASH Station"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h3>G-PALASH Station</h3>
+                  <p>Client station we supply</p>
+                  <button class="gallery-btn" onclick="openLightbox(this)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="team">
+            <div class="gallery-image">
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-13%20at%2018.00.16_09d53e27.jpg-OCGqr1yocbRs4xriBfbmIsNOLD938l.jpeg"
+                alt="USISKO team celebration"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h3>Team Celebration</h3>
+                  <p>Our dedicated team members</p>
+                  <button class="gallery-btn" onclick="openLightbox(this)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="clients">
+            <div class="gallery-image">
+              <img
+                src="./images/Screenshot_13-8-2025_194646_.jpeg.crdownload"
+                alt="DOMEX Station"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h3>DOMEX Station</h3>
+                  <p>Partner fuel station</p>
+                  <button class="gallery-btn" onclick="openLightbox(this)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="clients">
+            <div class="gallery-image">
+              <img
+                src="./images/Screenshot_13-8-2025_194751_.jpeg.crdownload"
+                alt="ST DOS Station"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h3>ST. DOS Resources</h3>
+                  <p>Client station with lubrication</p>
+                  <button class="gallery-btn" onclick="openLightbox(this)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="clients">
+            <div class="gallery-image">
+              <img
+                src="./images/Screenshot_13-8-2025_194758_.jpeg.crdownload"
+                alt="DOSITECH Station"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h3>DOSITECH Oil & Gas</h3>
+                  <p>Partner station we supply</p>
+                  <button class="gallery-btn" onclick="openLightbox(this)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+      <div class="lightbox-content">
+        <button class="lightbox-close" onclick="closeLightbox()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </button>
+        <img
+          class="lightbox-image"
+          id="lightbox-image"
+          src="/placeholder.svg"
+          alt=""
+        />
+        <div class="lightbox-info">
+          <h3 class="lightbox-title" id="lightbox-title"></h3>
+          <p class="lightbox-description" id="lightbox-description"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <div class="logo">
+                <span>U</span>
+              </div>
+              <span class="brand-text">USISKO</span>
+            </div>
+            <p>
+              Fueling progress across Delta State with reliable petroleum
+              solutions.
+            </p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="locations.html">Locations</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Services</h4>
+            <ul>
+              <li>Fuel Supply</li>
+              <li>Storage Solutions</li>
+              <li>Transport Services</li>
+              <li>Retail Operations</li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Contact</h4>
+            <ul>
+              <li>+234 806 775 4973</li>
+              <li>usiskogloball@gmail.com</li>
+              <li>Caravan 54, PPMC, Warri</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 USISKO Global Resources Nig. Ltd. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
