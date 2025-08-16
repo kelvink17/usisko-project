@@ -7,10 +7,16 @@
 
 :root {
   /* Color Palette - Following Design Brief */
-  --primary-color: #059669; /* Emerald Green */
-  --primary-light: #10b981;
+
+  /* --primary-color: #2563eb; Modern Blue */
+  /* --primary-color: #059669; Emerald Green */
+  /* --primary-light: #10b981;
   --primary-dark: #047857;
-  --accent-color: #84cc16; /* Lime accent */
+  --accent-color: #84cc16; Lime accent */
+  --primary-color: #1e3a8a; /* Rich Indigo Blue */
+  --primary-light: #3f83f8; /* Vibrant Royal Blue */
+  --primary-dark: #1e293b; /* Deep Slate Blue */
+  --accent-color: #4f46e5; /* Bold Indigo Accent */
   --white: #ffffff;
   --light-gray: #f8fafc;
   --medium-gray: #64748b;
@@ -1621,7 +1627,6 @@ h6 {
     transform: translateY(-10px);
   }
 }
-
 @keyframes fadeInUp {
   from {
     opacity: 0;
